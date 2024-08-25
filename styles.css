@@ -1,0 +1,42 @@
+
+.inner img{
+    height: 350px;
+    border: 1px transparent;
+}
+
+.outer{
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inner {
+    margin: 50px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+    padding-top: 0px;
+    border: 1px transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.inner:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.info{
+    padding: 5px;
+    margin: 20px;
+    margin-top: -10px;
+}
+
+.info h1{
+    font-weight: 100;
+}
+
+.info h1,p{
+margin-bottom: -15px;
+color: rgb(35, 35, 35);
+}
