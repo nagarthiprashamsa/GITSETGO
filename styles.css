@@ -40,3 +40,14 @@
 margin-bottom: -15px;
 color: rgb(35, 35, 35);
 }
+.bottom{
+    background-color: rgb(54, 54, 54);
+    padding: 50px;
+}
+.bottom h2{
+    color: whitesmoke;
+}
+.bottom p{
+color: rgb(134, 134, 134);
+font-weight: lighter;
+}
